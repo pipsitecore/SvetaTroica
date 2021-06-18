@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Етажна Собственост</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Home page</title>
+		<!-- User styling -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="hero" id="top">
+			<div class="hero-image"></div>
+			<!--<h1>Do more, with less.</h1>-->
+		</div>
+		<div class="navbar-wrapper">
+			<nav>
+				<div class="content">
+					<ul>
+						<li class="action-item"><a href="#top">
+								<p>Обратно</p>
+							</a></li>
+						<li><a href="#taxcalc">
+								<p>Колко плащам?</p>
+							</a></li>
+						<li><a href="#product">
+								<p>Product</p>
+							</a></li>
+						<li><a href="#team">
+								<p>Team</p>
+							</a></li>
+					</ul>
+					<ul class="right">
+						<li><a href="#">
+								<p>Log in</p>
+							</a></li>
+						<li class="action-item"><a href="#">
+								<p>Sign up</p>
+							</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<section id="taxcalc">
+			<div id="container" class="content">
+				<h1>Калкулатор такса вход</h1>
+				<div id="calculator">
+
+
+					<form>
+						<p>Обитава ли се жилището?
+							<br>
+							<select id="isempty">
+								<option disabled selected value="0">-- Избери от списъка --</option>
+								<option value="0">Не</option>
+								<option value="1">Да</option>
+							</select>
+
+						<p>На кой етаж живеете?
+							<br>
+							<select id="floor">
+								<option disabled selected value="0">-- Избери от списъка --</option>
+								<option value="10">Етаж 1</option>
+								<option value="12">Етаж 2 до 8</option>
+							</select>
+
+						<p>Брой живущи (навършили 6-годишна възраст)
+							<br>
+							<select id="people">
+								<option disabled selected value="0">-- Избери от списъка --</option>
+								<option value="3">Един</option>
+								<option value="6">Двама</option>
+								<option value="9">Трима</option>
+								<option value="12">Четирима</option>
+								<option value="15">Петима</option>
+							</select>
+						<p>Имате ли куче?
+							<br>
+							<select id="dog">
+								<option disabled selected value="0">-- Избери от списъка --</option>
+								<option value="3">Да</option>
+								<option value="0">Не</option>
+							</select>
+
+					</form>
+					<br><button type="button" id="calculate">Изчисли!</button>
+					<p>
+
+				</div>
+				<!--calculator end-->
+				<div id="totalsum">
+					<span id="total">0.0</span><sup> лв.</sup>
+					<small id="permonth">на месец</small>
+				</div>
+				<!--totalTip end-->
+
+			</div>
+		</section>
+		<section id="product">
+			<div class="content">
+				<h1>Header 2</h1>
+				<h2>Subheader 2</h2>
+				<p>Text text text.</p>
+			</div>
+		</section>
+		<section id="team">
+			<div class="content">
+				<h1>Header 3</h1>
+				<h2>Subheader 3</h2>
+				<p>Text text text</p>
+			</div>
+		</section>
+		<footer>
+			<p><a href="#">footer</a></p>
+		</footer>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<!-- User scripts -->
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+
+	</html>
+	<!-- partial -->
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
